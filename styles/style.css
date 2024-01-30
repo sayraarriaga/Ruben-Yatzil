@@ -1,16 +1,26 @@
 /* basic style*/
 
 body{
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     padding:0%;
 
 }
 
+.inicio{
+    max-width: 100%;
+    position: relative;
+    margin-left: 2%;
+}
+
 img{
     max-width: 100%;
+    
+    
 }
+
+
 
 
 .container-all{
@@ -19,6 +29,7 @@ img{
     width: 100%;
     border-radius: 6px;
     overflow: hidden;
+    
 }
 
 .slide{
@@ -44,7 +55,7 @@ img{
 
 .pagination{
     position: absolute;
-    bottom: -250px;
+    bottom: -1000px;
     left: 0;
     display: flex;
     flex-wrap: wrap;
