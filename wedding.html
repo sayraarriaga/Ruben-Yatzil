@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yatzil & Ruben Wedding Invitation</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="styles3.css">
     
 </head>
 
@@ -13,7 +15,7 @@
 <body>
     
       <header>
-        <img class="inicio" src="images/inicio.png" alt="Nos casamos">
+        <img class="inicio3" src="images/inicio.png" alt="Nos casamos">
        </header>
 
     <section id="containner1">
@@ -83,11 +85,12 @@
         <h4>&</h4>
         <h4>Saúl Aviña Yglesias</h4>
         <h4>Christina Pretel Zocon</h4>
-        <img src="images/Yatzil.png" alt="yatzil&Ruben">
+        <img class="rubenyyatzil" src="images/yatzilyruben.jpeg" alt="yatzil&Ruben">
     </section>
     <section>
-        <h1>Cuernavaca Morelos</h1>
+        <h1>Recepcion</h1>
         <h4>Fecha y Hora</h4>
+        <img class="noshadown" src="images/fechayhora.png" alt="fecha y hora">
     </section>
     <section>
         <style>
@@ -109,12 +112,12 @@
               font-family: 'Comfortaa', sans-serif; /* Utiliza la fuente Comfortaa*/
              
             }
-            /*table{
-              background-color: #bbd0ff;;
-            }*/
+            table{
+              background-color: #D1DFEC;;
+            }
           </style>
         
-        <h1>El dia se acerca</h1>
+        <h4>El dia se acerca</h4>
         <table align ="center" width="90%">
             <tr>
               <td><span id="days"></span></td>
@@ -129,30 +132,42 @@
               <th>Segundos</th>
             </tr>
           </table>
-
+    </section>
+    <section id="scroller">
+        <div id="vacio"></div>
+        <div id="contenedor">
+            <div id="info">
+                <h1 class="statictext">Lugar</h1>
+                <h2 class="statictext">Jardin Mediterraneo "La Vila"</h2>
+                <h4 class="statictext">Calle Gral Emiliano Zapata No. 108, Jose G. Parres, 62564 Jiutepec, Mor.</h4>
+            </div>
+        </div>
+        </section>
           <section>
-            <h1>Lugar</h1>
+           <!-- <h1>Lugar</h1>
             <h4>Jardin Mediterraneo "La Vila"</h4>
             <img src="images/lavila.jpg" alt="Salon de eventos">
-            <h4>Ubicacion</h4>
-            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15099.951506808145!2d-99.18841!3d18.887619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddf514c5fc915%3A0x12356c08ba318fe8!2sLa%20Vila%20Jardin!5e0!3m2!1ses-419!2smx!4v1706731491158!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          
-            <div>
+            <h4>Ubicacion</h4>-->
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15099.951506808145!2d-99.18841!3d18.887619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddf514c5fc915%3A0x12356c08ba318fe8!2sLa%20Vila%20Jardin!5e0!3m2!1ses-419!2smx!4v1707262988244!5m2!1ses-419!2smx" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <div class="button">
               <a href="https://www.google.com/maps/place/La+Vila+Jardin,+Calle+Gral+Emiliano+Zapata+No.+108,+Jose+G.+Parres,+62564+Jiutepec,+Mor./@18.887619,-99.18841,15z/data=!4m6!3m5!1s0x85cddf514c5fc915:0x12356c08ba318fe8!8m2!3d18.887619!4d-99.18841!16s%2Fg%2F1tlbjx6_">Abrir en Google Maps</a>
              </div>
             </section>
             <section>
             <h1>Codigo de vestimenta</h1>
-            <p>Papá y mamá merecen una noche libre. Con mucho respeto </p>
-            <p>No niños</p>
+            <div>
+            <img class="icons" src="images/codigovestimenta7.png" alt="codigo de vestimenta">
+            </div>
+            <p>Formal / Elegante</p>
             
           </section>
           <section>
             <h1>Itinerario</h1>
-            <p>5:00 m - 7:00pm   Cocktail de bienvenida en el Jardin</p>
-            <p>7:00pm - 9:00pm   Cena dentro del salon</p>
-            <p>9:00pm -12:00am   Baile</p>
-            <p>12:00pm - 3:00am  Torna Boda</p>
+           <img class="itinerario" src="images/itinerario.png" alt="itinerario">
+           <h4>"Mamá y Papá merecen una noche libre" </h4>
+            <h4>RESPETUOSAMENTE</h4>
+            <h4>NO NIÑOS</h4>
           </section>
          
           <section id="containner2">
@@ -220,19 +235,34 @@
               <div>
                 <img src="images/featured_seasonal_and_gifts_FILL0_wght400_GRAD0_opsz24.png" alt="">
                 </div>
-              <p>Tu presencia es mas que suficiente para nosotros, pero si deseas darnos un Regalo
-                agradecemos sea en efectivo o transferencia.
+              <p>Tu presencia es nuestro mayor regalo, pero si aun asi deseas obsequiarnos algo, puedes hacerlo
+                en efectivo o tranferencia
               </p>
               <div>
               <img src="images/mail_FILL0_wght400_GRAD0_opsz24.png" alt="">
               <img src="images/credit_card_FILL0_wght400_GRAD0_opsz24.png" alt="">
             </div>
             </section>
+            <section id="templo">
+                <div id="vacio"></div>
+                <div id="contenedor">
+                    <div id="info">
+                        <h1 class="statictext2">Sellamiento</h1>
+                        <h2 class="statictext2">Templo de la ciudad de Mexico</h2>
+                        <p class="statictext2">"Ninguna Medida de tiempo sera suficiente para estar contigo, empecemos con un por siempre"</p>
+                        <h2 class="statictext2">Viernes 26 Abril 2024</h2>
+                        <h2 class="statictext2">3:30 pm</h2>
+
+
+                       
+                    </div>
+                </div>
+                </section>
             <section>
               <H1>Agradecemos la confirmacion de tu asistencia</H1>
   
-              <div><a href="novia.html">Confirmar a la Novia</a></div>
-              <div><a href="novio.html">Confirmar al novio</a></div>
+              <div class="button2"><a href="novia.html">Confirmar a la Novia</a></div>
+              <div class="button2"><a href="novio.html">Confirmar al novio</a></div>
   
             </section>
             <section>
@@ -302,8 +332,12 @@
             });
           </script>
         
-      
-    </section>
+        <footer>
+            <div>
+            <h1>Gracias por ser parte del dia mas importante de nuestras vidas</h1>
+        </div>
+        </footer>
+    
 
     
      
