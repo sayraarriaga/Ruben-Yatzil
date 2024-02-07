@@ -41,3 +41,10 @@ div#info{
     padding: 40px;
 }
 
+h1, h2, h4{
+    font-size: 17px;
+    color: #EFEFED;
+    text-align: center;
+    padding: 40px;
+}
+
