@@ -73,7 +73,7 @@ div{
 .inicio{
     max-width: 100%;
     position: relative;
-    margin-left: 2%;
+    box-shadow: none;
 }
 
 img{
