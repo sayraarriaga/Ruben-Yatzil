@@ -1,0 +1,27 @@
+body{
+    background-image: url(images/DSC_7005.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.asistire{
+    background-color: #D1DFEC;
+    border-radius: 5%;
+
+}
+
+.noasistire{
+    background-color: #D1DFEC;
+    border-radius: 5%;
+
+}
+.home{
+    background-color: #D1DFEC;
+    border-radius: 5%;
+
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
