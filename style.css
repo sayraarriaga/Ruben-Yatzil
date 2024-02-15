@@ -8,6 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     padding:0%;
+    
 
 }
 h1{
@@ -18,10 +19,14 @@ h1{
     color: #22333b;
 }
 
+#regalo{
+    background-image: url(images/mancha.png);
+}
+
 p{
     font-family: 'Comfortaa', sans-serif;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     padding:0px;
     color: #22333b; 
     
@@ -30,7 +35,7 @@ p{
 h4{
     font-family: 'Comfortaa', sans-serif;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     padding:0px;
     color: #22333b;  
 }
@@ -47,6 +52,7 @@ a{
 div{
     text-align: center;
 }
+
 .button{
     
     background-color: #D1DFEC;
@@ -74,6 +80,7 @@ div{
     max-width: 100%;
     position: relative;
     box-shadow: none;
+
 }
 
 img{
@@ -113,6 +120,8 @@ img{
     padding: 5%;
     
 }
+
+
 
 
 .container-all{
@@ -174,6 +183,42 @@ img{
     transition: all 300ms;
 
 }
+
+#botonCopiar{
+    background-color: #D1DFEC;
+    border-radius: 5px;
+    border: solid #EFEFED;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16 px;
+}
+
+#botonCopiar2{
+    background-color: #D1DFEC;
+    border-radius: 5px;
+    border: solid #EFEFED;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16 px;
+}
+/*Tabla cuenta regresiva*/
+td {
+    color: #666666;
+    font-size: 40px;
+    font-family: 'Comfortaa', sans-serif; /* Utiliza la fuente Comfortaa */
+    text-align: center;
+    
+  }
+
+  th {
+    color: #666666;
+    text-align: center;
+     font-size: 12px;
+    font-family: 'Comfortaa', sans-serif; /* Utiliza la fuente Comfortaa*/
+   
+  }
+  table{
+    background-color: #D1DFEC;
+    align-items: center;
+  }
 
 /*lo que hara el icono al pasar el cursor sobre el*/
 
