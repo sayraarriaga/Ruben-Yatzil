@@ -1,7 +1,5 @@
-body{
-    background-image: url(images/DSC_7005.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+img{
+    max-width: 100px;
 }
 .asistire{
     background-color: #D1DFEC;
