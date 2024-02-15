@@ -32,6 +32,8 @@ p{
     
 }
 
+
+
 h4{
     font-family: 'Comfortaa', sans-serif;
     text-align: center;
@@ -189,7 +191,8 @@ img{
     border-radius: 5px;
     border: solid #EFEFED;
     font-family: 'Comfortaa', sans-serif;
-    font-size: 16 px;
+    font-size: 20 px;
+    color: #22333b;
 }
 
 #botonCopiar2{
@@ -197,7 +200,8 @@ img{
     border-radius: 5px;
     border: solid #EFEFED;
     font-family: 'Comfortaa', sans-serif;
-    font-size: 16 px;
+    font-size: 20 px;
+    color: #22333b;
 }
 /*Tabla cuenta regresiva*/
 td {
