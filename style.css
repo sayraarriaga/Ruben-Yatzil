@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     padding:0%;
-    background-color: #fff5ef;
+    
     
     
 
@@ -22,7 +22,7 @@ h1{
 }
 
 #regalo{
-    background-image: url(images/mancha6.png);
+    background-image: url(images/mancha.png);
 }
 
 p{
@@ -68,7 +68,7 @@ div{
 
 .button{
     
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -79,7 +79,7 @@ div{
 
 .button2{
     
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 10px;
@@ -121,7 +121,7 @@ img{
     box-shadow: none;
 }
 .presentIcons{
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     padding: 5px;
     border-radius: 15px;
 }
@@ -204,7 +204,7 @@ img{
 
 #botonCopiar{
     width: 40%;
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     border-radius: 5px;
     border: solid #EFEFED;
     font-family: 'Comfortaa', sans-serif;
@@ -214,7 +214,7 @@ img{
 
 #botonCopiar2{
     width: 40%;
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     border-radius: 5px;
     border: solid #EFEFED;
     font-family: 'Comfortaa', sans-serif;
@@ -238,7 +238,7 @@ td {
    
   }
   table{
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     align-items: center;
   }
 
@@ -265,7 +265,7 @@ td {
 footer{
     margin-top: -20px;
     width: 100%;
-    background-color: #D1DFEC;
+    background-color: #bac6ae;
     text-align: center;
 }
 
