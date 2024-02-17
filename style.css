@@ -8,7 +8,7 @@ body{
     align-items: center;
     justify-content: center;
     padding:0%;
-    background-color: #e7e5d9;
+    background-color: #EFEFED;
     
     
     
@@ -23,7 +23,7 @@ h1{
 }
 
 #regalo{
-    background-image: url(images/mancha7.png);
+    background-image: url(images/mancha2.png);
 }
 
 p{
